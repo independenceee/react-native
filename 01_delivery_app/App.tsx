@@ -1,7 +1,8 @@
 import React from "react";
 import { Provider } from "react-redux";
-import { store } from "./redux/store";
-import Navigations from "./navigations";
+import { SafeAreaProvider } from "react-native-safe-area-context";
+import { store } from "./src/redux/store";
+import Navigations from "./src/navigations";
 
 type Props = {};
 const App = function () {
