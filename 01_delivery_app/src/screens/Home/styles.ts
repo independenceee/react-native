@@ -37,8 +37,8 @@ const styles = StyleSheet.create({
         display: "flex",
         flexDirection: "row",
         alignItems: "center",
-        paddingHorizontal: 12,
-        paddingVertical: 12,
+        marginHorizontal: 12,
+        paddingBottom: 8,
     },
 
     searchInner: {
@@ -53,6 +53,9 @@ const styles = StyleSheet.create({
     searchIcon: {
         bottom: 2,
     },
-    container: {},
+
+    container: {
+        backgroundColor: "rgb(243 ,244 ,246)",
+    },
 });
 export default styles;

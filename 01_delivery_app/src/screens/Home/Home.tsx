@@ -14,6 +14,7 @@ import AntDesign from "react-native-vector-icons/AntDesign";
 import EvilIcons from "react-native-vector-icons/EvilIcons";
 import images from "../../assets/images";
 import styles from "./styles";
+import Categories from "../../components/Categories/Categories";
 
 type Props = {};
 const Home = function ({}: Props) {
@@ -59,7 +60,12 @@ const Home = function ({}: Props) {
                 </View>
                 <AntDesign size={30} color={"#00CCBB"} name={"bars"} />
             </View>
-            <ScrollView style={styles.container}></ScrollView>
+            <ScrollView
+                style={styles.container}
+                contentContainerStyle={{ padding: 100 }}
+            >
+                <Categories />
+            </ScrollView>
         </SafeAreaView>
     );
 };
