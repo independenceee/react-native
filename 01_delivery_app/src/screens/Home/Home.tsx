@@ -60,10 +60,7 @@ const Home = function ({}: Props) {
                 </View>
                 <AntDesign size={30} color={"#00CCBB"} name={"bars"} />
             </View>
-            <ScrollView
-                style={styles.container}
-                contentContainerStyle={{ padding: 100 }}
-            >
+            <ScrollView style={styles.container}>
                 <Categories />
             </ScrollView>
         </SafeAreaView>
