@@ -15,6 +15,7 @@ import EvilIcons from "react-native-vector-icons/EvilIcons";
 import images from "../../assets/images";
 import styles from "./styles";
 import Categories from "../../components/Categories/Categories";
+import Featured from "../../components/Featured/Featured";
 
 type Props = {};
 const Home = function ({}: Props) {
@@ -62,6 +63,26 @@ const Home = function ({}: Props) {
             </View>
             <ScrollView style={styles.container}>
                 <Categories />
+                <Featured
+                    id=""
+                    title="Features"
+                    description="If the network activity indicator should be visible."
+                />
+                <Featured
+                    id=""
+                    title="Features"
+                    description="If the network activity indicator should be visible."
+                />
+                <Featured
+                    id=""
+                    title="Features"
+                    description="If the network activity indicator should be visible."
+                />
+                <Featured
+                    id=""
+                    title="Features"
+                    description="If the network activity indicator should be visible."
+                />
             </ScrollView>
         </SafeAreaView>
     );
