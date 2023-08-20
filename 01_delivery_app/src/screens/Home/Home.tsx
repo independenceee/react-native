@@ -78,11 +78,6 @@ const Home = function ({}: Props) {
                     title="Features"
                     description="If the network activity indicator should be visible."
                 />
-                <Featured
-                    id=""
-                    title="Features"
-                    description="If the network activity indicator should be visible."
-                />
             </ScrollView>
         </SafeAreaView>
     );

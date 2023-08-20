@@ -64,19 +64,6 @@ const Featured = function ({ id, title, description }: Props) {
                     short_description=""
                     title=""
                 />
-                <RestaurantCard
-                    id=""
-                    address=""
-                    dishes={10}
-                    genre=""
-                    imgUrl=""
-                    lat={100}
-                    long={200}
-                    rating={4.5}
-                    short_description=""
-                    title=""
-                />
-                
             </ScrollView>
         </View>
     );
